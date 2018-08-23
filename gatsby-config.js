@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Modified Gatsby Default Starter',
   },
   plugins: [
+    'gatsby-plugin-emotion',
+    'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -16,6 +18,5 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-offline',
   ],
 }
