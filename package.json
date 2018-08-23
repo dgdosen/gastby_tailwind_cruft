@@ -12,6 +12,8 @@
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-helmet": "next",
+    "postcss": "^7.0.2",
+    "postcss-cli": "^6.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-emotion": "^9.2.6",
@@ -25,6 +27,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "predevelop": "postcss tailwind.css -o tailwind.custom.css",
+    "prebuild": "postcss tailwind.css -o tailwind.custom.css",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
