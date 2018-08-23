@@ -34,4 +34,8 @@ yarn add tailwindcss babel-plugin-tailwind emotion react-emotion emotion-server 
 ```
 
 Following the tailwindcss installation docs:
+
 [tailwind installation](https://tailwindcss.com/docs/installation)
+
+Used Tailwind Docs to modify style (over css funciton) in index.js:
+It works!
