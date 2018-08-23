@@ -4,13 +4,19 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "babel-plugin-tailwind": "^0.1.10",
+    "emotion": "^9.2.6",
+    "emotion-server": "^9.2.6",
     "gatsby": "next",
-    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-emotion": "^1.1.17",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
+    "gatsby-plugin-react-helmet": "next",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-helmet": "^5.2.0"
+    "react-emotion": "^9.2.6",
+    "react-helmet": "^5.2.0",
+    "tailwindcss": "^0.6.5"
   },
   "keywords": [
     "gatsby"
