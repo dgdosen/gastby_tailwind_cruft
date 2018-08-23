@@ -1,26 +1,31 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# gatsby-tailwind-emotion
+Crufting up a default Gatsby site and looking at what needs to change to turn it
+into a gatsby-tailwind-emotion site.  This is more an exercise to see what's going on in these new (to me) frameworks.
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+Feel free to follow along with the commits.
 
-## Install
+Written on 2018-08-23, while Gatsby is in V2 Beta
+
+## Recipe
 
 Make sure that you have the Gatsby CLI program installed:
 ```sh
-npm install --global gatsby-cli
+npm install --global gatsby-cli@next
 ```
 
 And run from your CLI:
 ```sh
-gatsby new gatsby-example-site
+gatsby new xxxx https://github.com/gatsbyjs/gatsby-starter-default\#v2
 ```
 
 Then you can run it by:
 ```sh
-cd gatsby-example-site
+cd xxx
 gatsby develop
 ```
 
-## Deploy
+Adding several dependencies:
+```sh
+yarn add tailwindcss babel-plugin-tailwind emotion react-emotion emotion-server  gatsby-plugin-emotion
+```
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
